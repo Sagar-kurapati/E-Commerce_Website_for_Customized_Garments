@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customized Garments for Men | RameshGarments.com </title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .Accbtn{
+            width: 100%;
+            padding: 0 0 3% 0   ;
+            font-size: 30px;
+          
+        }
+        
+    </style>
+    <script javascript>
+        function go(){
+            header('location:http://localhost/dashboard/MYPROJECT/index1.php');
+        }
+    </script>
+</head>
+<body bgcolor="antiquewhite">
+    <div class="header">
+    <nav id="navbar">
+        <div id="logo" style="border:0px;">
+            <a href="index.html"> <img src="Rglogo.jpg" style="border:6px solid white; border-radius:50%;" alt="RameshGarments.com"></a>
+        </div>
+        <ul>
+            <li class="item"><a href="index1.php">Home</a></li>
+            <li class="item"><a href="All products.php"> Products</a></li>
+            <li class="item"><a href="new.php">Customized</a></li>
+            <li class="item"><a href="Cart.php">Cart</a></li>
+            <li class="item"><a herf="#">Services</a></li>
+            <li class="item"><a href="accounts.html">Profile</a></li>
+            
+        </ul>
+    </nav>
+    <section id="Home">
+        <h1 class="h-primary">Welcome to our store</h1>
+        <p>
+       Get a wonder experience of customizing your clothes<br>
+        According to your choice. With the perfect<br>
+        Material and patterns
+        </p>
+        <a href="customization.html"> <button class="btn">Create Shirt</button></a>
+    </section>
+</div>
+<!-------accounts --------->
+<div class="account-page" >
+    <div class="container">
+        <div class="row">
+            <div class="col2">
+                <img src="Rglogo.jpg" width="100%" style=" margin-top:500px;">
+            </div>
+            <div class="col2">
+                <div class="form-container">
+                    <h1> Accounts</h1>
+                    <table border="2">
+                    <tr><td><input type="submit" class="Accbtn" value="Your orders" onclick="go()"></td></tr>
+                    <tr><td>Your history</td></tr>
+                    <tr><td>Favouriates</td></tr>
+                    <tr><td>Account details</td></tr>
+                    <tr><td> Recipts</td></tr>
+                    </table>
+                    
+                </div>
+            </div>
+
+                    
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----foooter------->
+<div class="footer" >
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+                <h3>Download Our app</h3>
+                <p>Download our app from ios or android  mobile phone
+                    from <br><b>Playstore</b> and <b>App Store</b>
+                </p>
+            </div>
+            <div class="footer-col2">
+                <img src="Rglogo.jpg" alt="123" style="height: 100px;">
+                <p>Our Purpose is to sustainably make the plesure and benefits of garments accessaible to many</p>
+            </div>
+            <div class="footer-col3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>blogs</li>
+                    <li>return policy</li>
+                    <li>join us</li>
+                </ul>
+            </div>
+            <div class="footer-col4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>FaceBook</li>
+                    <li>Instragram</li>
+                    <li>twitter</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+    var Loginform = document.getElementById("loginform");
+    var regform = document.getElementById("regform");
+    var Indicator =document.getElementById("Indicator");
+    function Register(){
+        regform.style.transform -" translateX(600px)";
+        loginform.style.transform -" translateX(600px)";
+        Indicator.style.transform -" translateX(1000px)";
+    }
+    function Login(){
+        regform.style.transform -" translateX(400px)";
+        loginform.style.transform -" translateX(400px)";
+        Indicator.style.transform -" translateX(500)";
+    }
+</script>
+ 
+
+
+
+
+
+</body>
+</html>
